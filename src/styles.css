@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  padding-left: 0;
+}
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
+
+  background-color: rgb(189, 230, 247);
+}
+.input-wrapper {
+  margin: 0 auto;
+  width: 500px;
+  padding: 20px 0px;
+  text-align: center;
+}
+#input-id {
+  width: 250px;
+}
+.country-article {
+  padding-top: 30px;
+}
+.country-name {
+  text-align: center;
+}
+.country-description {
+  width: 380px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(160, 189, 212);
+  padding: 30px;
+}
+.flag-container {
+  margin-left: 30px;
+}
