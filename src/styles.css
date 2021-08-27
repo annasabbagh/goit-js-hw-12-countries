@@ -17,7 +17,11 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
     Verdana, sans-serif;
 
-  background-color: rgb(189, 230, 247);
+  /* background-color: rgb(189, 230, 247); */
+  background: linear-gradient(rgb(214, 247, 244, 0.8), rgba(214, 247, 244, 0.8)),
+    url('./images/map.png') no-repeat fixed;
+  background-size: contain;
+  background-position: center;
 }
 .input-wrapper {
   margin: 0 auto;
